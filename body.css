@@ -1,0 +1,344 @@
+
+html{
+    scroll-behavior: smooth;
+}
+/* section 1 */
+.isi_home p{
+    color: white;
+}
+
+#home{
+    height: 100vh;
+}
+
+.isi_home{
+    margin-top: 8rem;
+    margin-left: 3rem;
+    font-size: 2.7rem;
+}
+
+.btnHome a {
+    color: white;
+    text-decoration: none;
+}
+
+.btnHome {
+    border: none;
+    margin-top: 20px;
+    padding: 1rem 1.8rem;
+    border-radius: 30px;
+    font-size: 0.4em;
+    font-weight: bold;
+    background: rgb(229, 6, 7);
+    cursor: pointer;
+}
+
+.SEI{
+    color: rgb(229, 6, 7); 
+    font-weight: bold; 
+    font-size: 1.2em; 
+    border: 2px; 
+    border-color: white; 
+    background-color: white; 
+    border-radius: 20px;
+}
+
+/* section 2 */
+#About{
+    height: 165vh;
+    background-color: black;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start
+}
+
+
+.about-isi h1{
+    margin-top: 15rem;
+    margin-left: 3rem;
+    margin-bottom: 3rem;
+    font-size: 3rem;
+    color: white;
+}
+
+.about-desk{
+    margin-left: 3rem;
+    color: white;
+}
+
+.button{
+    margin-left: 3rem;
+    margin-bottom: 3rem;
+}
+
+.button2{
+    margin-right: 2rem;
+}
+
+.About .button2{
+    margin-top: 2rem;
+    gap: 1rem;
+    font-size: 1rem;
+    width: 7rem;
+    height: 3rem;
+    border: solid 2px white;
+    border-radius: 2rem;
+    background: transparent;
+    color: white;
+    cursor: pointer;  
+}
+
+.About .button3{
+    margin-top: 2rem;
+    gap: 1rem;
+    font-size: 1rem;
+    width: 7rem;
+    height: 3rem;
+    border: solid 2px white;
+    border-radius: 2rem;
+    background: transparent;
+    color: white;
+    cursor: pointer;  
+}
+
+.About .button2:hover{
+    background-color: white;
+    color: black;
+    transition: linear .3s;  
+}
+
+
+.About .button3:hover{
+    background-color: white;
+    color: black;
+    transition: linear .3s;  
+}
+
+#About .about-isi .gambar-about .img1{
+    border-radius: 10px;
+	overflow: hidden;
+    margin-right: 3rem;
+    margin-left: 6rem;
+}
+
+#About .about-isi .gambar-about .img2{
+    border-radius: 10px;
+	overflow: hidden;
+    margin-right: 2rem;
+    margin-left: 4rem;
+}
+
+
+#About .about-isi .gambar-about div:hover img{
+    scale: 1.1;
+    filter: grayscale(0);
+}
+
+#About .about-isi .gambar-about img{
+    filter: grayscale(1);
+	transition: 0.3s;
+	object-fit: cover;
+}
+
+#About .about-isi {
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+    gap: 1rem;
+}
+
+#About .about-isi> * {
+    flex: 1;
+}
+
+#About .about-isi .gambar-about{
+    position: relative;
+    display: flex;
+    gap: 1rem;
+    height: 400px;
+}
+
+#About .about-isi .gambar-about div{
+    flex: 1;
+}
+
+
+#About .about-isi .gambar-about img{
+    width: 100%;
+    height: 100%;
+}
+
+
+/* section 3 */
+#Team{
+    background-color: white;
+    gap: 1rem;
+}
+
+#Team > h1 {
+    text-align: center;
+}
+
+.our-team{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;    
+}
+
+.Team .team-card{
+    text-align: center  ;
+    border-radius: 10px;
+	overflow: hidden;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    flex: 1 1 250px;
+    margin: 1rem;
+}
+
+
+.Team .team-card .gambar-team{
+    height: 150px;
+	background: rgb(248, 248, 248);
+	border-radius: 5px;
+	padding: 1rem;
+	box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.05);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.Team .team-card .gambar-team img{
+    width: 100px;
+}
+
+.Team .team-card .isi-team .btn-team{
+    margin: 1rem 0;
+    font-size: 1rem;
+    width: 7rem;
+    height: 3rem;
+    border: solid 2px black;
+    border-radius: 2rem;
+    background: transparent;
+    color: black;
+    cursor: pointer;
+}
+
+.Team .team-card .isi-team .btn-team:hover{
+background-color: black;
+color: white;
+transition: linear .3s;  
+}
+
+
+/* section 4 */
+#Gallery{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(229, 6, 7);
+    padding-bottom: 10rem;
+}
+
+#Gallery h1{
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+}
+
+#Gallery .gambar-gallery {
+    display: grid;
+    width: 100%;
+    gap: .2rem;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));  
+}
+
+#Gallery .gambar-gallery img{
+    width: 100%;
+	aspect-ratio: 1;
+	object-fit: cover;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* section 5 */
+
+#Contact{
+    background-color: black;
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    box-sizing: border-box;
+}
+
+#Contact .tulisan-footer{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#Contact .sosial-media{
+    background: var(--dark-primary);
+	box-shadow: 0 0 0 100vmax var(--dark-primary);
+	clip-path: inset(0 -100vmax);
+	padding-block: 2rem;
+	color: white;
+    /* margin-top: 2rem; */
+}
+
+#Contact .tulisan-footer .kiri{
+    max-width: 500px;
+}
+
+#Contact .gambar-sosial{
+    padding-bottom: 2rem;
+    border-bottom: 1px solid white;
+    margin: 2rem;
+    display: flex;
+    gap: 1rem;
+}
+
+#Contact .tulisan-footer .kiri{
+    max-width: 30rem;
+}
+
+
+#Contact .tulisan-footer .kiri h2{
+    font-size: 2rem;
+}
+
+#Contact .tulisan-footer .kanan h2{
+    font-size: 2rem;
+}
+
+#Contact .tulisan-footer{
+    margin: 2rem;
+    font-size: 1rem;
+    margin-top: 2rem;
+    display: flex;
+    gap: 2rem 1rem;
+    justify-content: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#Contact .gambar-sosial a{
+    width: 30px;	
+	height: 30px;
+	display: block;
+}
+
+#Contact .gambar-sosial a img{
+    object-fit: cover;
+	width: 100%;
+	height: 100%;
+}
+
+#Contact .copyright{
+    padding-top: 2rem;
+	margin-top: 2rem;
+	border-top: 1px solid #ccc;
+	font-weight: 500;
+	font-size: 0.9rem;
+    margin: 2rem;
+}
